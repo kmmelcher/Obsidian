@@ -1,0 +1,263 @@
+{
+  "main": {
+    "id": "44acf2feca3da57f",
+    "type": "split",
+    "children": [
+      {
+        "id": "498ceadf81d4dc68",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a35cdb85c4cc8e7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lock One.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f9a719235569ea4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lock Two.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad7b35ef86a63d36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Peterson.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d197b68fd0b9edd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bakery.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "705c2689c4ee964d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TAS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "759c2d6d1b84940d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TTAS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "807cd8456ab4f6ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spin lock vs Blocking lock.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "33818b2159f66845",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa448a94ed285266",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3af466812900a973",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c38b512e4d0cd53b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "bake",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e32f39e6ced0629f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "f9a7f589e65dfa1e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "418dbf175723899a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6b1214a9fd5b47c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d9d7c8c5ec5614b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Peterson.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "79141c0cb3073604",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Peterson.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "db0af7fd2ef38d1b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5b3d230e32b705cc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Peterson.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ad7b35ef86a63d36",
+  "lastOpenFiles": [
+    "Lock One.md",
+    "Spin lock vs Blocking lock.md",
+    "Pasted image 20230514144939.png",
+    "TTAS.md",
+    "TAS.md",
+    "Bakery.md",
+    "Peterson.md",
+    "Lock Two.md",
+    "Pasted image 20230513213151.png",
+    "Pasted image 20230513211951.png",
+    "Stack in Python.md",
+    "Prioriy  Queues in Python.md",
+    "Queue in Python.md",
+    "Projeto de redes.md",
+    "Untitled.md",
+    "Reprodutibilidade.md",
+    "Deutsch 04-05-2023.md",
+    "Intervalo de confiança.md",
+    "Deutsch 27-04-2023.md",
+    "Deutsch 13-04-23.md",
+    "Deutsch 06-04-23.md",
+    "Reuniao claudio 21-04.md",
+    "User data.md",
+    "AWS Course.md",
+    "IAM Roles.md",
+    "Amazon EC2 AutoScaling.md",
+    "Amazon RDS.md",
+    "IAM Groups.md"
+  ]
+}
