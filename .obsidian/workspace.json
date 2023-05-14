@@ -90,9 +90,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "db8720fb2bfc9def",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -168,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spin lock vs Blocking lock.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spin lock vs Blocking lock.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spin lock vs Blocking lock.md"
+                "file": "README.md"
               }
             }
           }
@@ -229,15 +241,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "807cd8456ab4f6ec",
+  "active": "db8720fb2bfc9def",
   "lastOpenFiles": [
+    "Spin lock vs Blocking lock.md",
+    "README.md",
     "TTAS.md",
     "TAS.md",
     "Bakery.md",
     "Peterson.md",
     "Lock Two.md",
     "Lock One.md",
-    "Spin lock vs Blocking lock.md",
     "Pasted image 20230514144939.png",
     "Pasted image 20230513213151.png",
     "Pasted image 20230513211951.png",
