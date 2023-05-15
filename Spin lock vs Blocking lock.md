@@ -1,4 +1,4 @@
-# Spin lock vs Blocking lock
+[[Concorrente]]
 
 **Spin lock**
 Também chamado de busy-wait (ou espera ocupada em português), é uma implementação de semáforos, que fazem com que uma thread fique esperando até poder ser sua vez de avançar.

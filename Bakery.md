@@ -1,4 +1,4 @@
-# Bakery
+[[Concorrente]]
 
 ```java
 
@@ -35,8 +35,8 @@ void unlock(){
 ```
 
 **Estratégia**
-	José chega na padaria para comprar um pão e pega um ticket. De início, seu ticket é um papel em branco, então José precisa descobrir seu número. Para isso, ele vai levantar a mão e perguntar a cada cliente da padaria o número de seu ticket. Depois de perguntar a todos, ele vai escrever no seu ticket o maior número mais um, então ele irá abaixar a mão. Agora José precisa esperar a sua vez. Para isso, ele novamente olha o ticket de cada cliente que está na padaria um a um. Quando ele vê que um cliente que está com a mão levantada, ou que tem um número menor que o dele ele aguarda ao seu lado, porque não é sua vez ainda. Se ele ver alguém com o mesmo ticket que o dele, ele educadamente cede a vez. Depois que José viu os tickets de todo mundo ele tem certeza que é a vez dele. Então josé pega seu pão. Depois de pegar seu pão, josé vai embora e joga seu ticket no lixo com raiva da história toda.
-f 
+	José chega na padaria para comprar um pão e pega um ticket. De início, seu ticket é um papel em branco, então José precisa descobrir seu número. Para isso, ele levanta a mão e pergunta a cada cliente da padaria o número de seu ticket. Depois de perguntar a todos, ele escreve no seu ticket o maior número mais um, então ele abaixa a mão. Agora José precisa esperar a sua vez. Para isso, ele novamente olha o ticket de cada cliente que está na padaria um a um. Quando ele vê que um cliente que está com a mão levantada, ou que tem um número menor que o dele ele aguarda ao seu lado, porque não é sua vez ainda. Se ele ver alguém com o mesmo ticket que o dele, ele educadamente cede a vez. Depois que José viu os tickets de todo mundo ele tem certeza que é a vez dele. Então josé pega seu pão. Depois de pegar seu pão, josé vai embora e joga seu ticket no lixo com raiva da história toda.
+
 **Garantia**
 - Exclusão mútua para N threads
 - Livre de deadlocks

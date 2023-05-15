@@ -56,7 +56,7 @@
             }
           },
           {
-            "id": "705c2689c4ee964d",
+            "id": "759c2d6d1b84940d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -68,7 +68,7 @@
             }
           },
           {
-            "id": "759c2d6d1b84940d",
+            "id": "91c5cf92b1739b06",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -90,21 +90,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "db8720fb2bfc9def",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -180,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Spin lock vs Blocking lock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Spin lock vs Blocking lock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Spin lock vs Blocking lock.md"
               }
             }
           }
@@ -241,16 +229,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db8720fb2bfc9def",
+  "active": "807cd8456ab4f6ec",
   "lastOpenFiles": [
-    "Spin lock vs Blocking lock.md",
-    "README.md",
     "TTAS.md",
     "TAS.md",
     "Bakery.md",
     "Peterson.md",
+    "Spin lock vs Blocking lock.md",
     "Lock Two.md",
     "Lock One.md",
+    "Pasted.md",
+    "README.md",
     "Pasted image 20230514144939.png",
     "Pasted image 20230513213151.png",
     "Pasted image 20230513211951.png",
@@ -270,7 +259,6 @@
     "AWS Course.md",
     "IAM Roles.md",
     "Amazon EC2 AutoScaling.md",
-    "Amazon RDS.md",
-    "IAM Groups.md"
+    "Amazon RDS.md"
   ]
 }

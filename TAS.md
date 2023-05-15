@@ -1,4 +1,4 @@
-# TAS
+[[Concorrente]]
 
 ```java
 
@@ -22,7 +22,7 @@ Esse é um objeto que possui dois métodos: getAndSet e set.
   Define um novo valor booleano v.
 
 **Estratégia**
-Um boleano atômico é criado com valor inicial falso. Quando uma thread chama o lock ela define o valor do booleano para true e retorna o valor antigo, que inicialmente era falso. Então a primeira thread sai do while, entrando na região crítica. Ao chegar uma segunda thread, ela ira definir **novamente** o seu valor para true e retornar o valor antigo, que no caso é true. Dessa forma a segunda thread fica presa no while. Por fim, quando a primeira thread sai da região crítica, ela define seu valor para falso. Liberando a entrada da segunda thread.
+	Um boleano atômico é criado com valor inicial falso. Quando uma thread chama o lock ela define o valor do booleano para true e retorna o valor antigo, que inicialmente era falso. Então a primeira thread sai do while, entrando na região crítica. Ao chegar uma segunda thread, ela irá definir **novamente** o valor do booleano para true e retornar o valor antigo, que no caso é true. Dessa forma a segunda thread fica presa no while. Por fim, quando a primeira thread sai da região crítica, ela define o valor do booleano para falso. Liberando a entrada da segunda thread.
 
 **Garantia**
 - Exclusão mútua para N threads
@@ -35,5 +35,5 @@ Um boleano atômico é criado com valor inicial falso. Quando uma thread chama o
 	O processador se comunica com a memória por meio de um barramento.
 	Esse barramento é compartilhado entre as CPUs.
 	Quando um CPU está usando o barramento ele fica ocupado e não pode ser usado por outro.
-	Para evitar muitas consultas a memória que são lentas e entopem o barramento, cada CPU possui uma memória cache pequena. Ao fazer uma leitura de uma variável a CPU guarda no cache. E assim também fazem os outros CPUs que lerem essa variável. Contudo, se um CPU faz um operação de escrita todos os outros caches são invalidádos para garantir a consistência do dado. Trazendo esse contexto para a nossa implementação do TAS, nós temos uma variável que será compartilhada entre as CPUs: ab. E há muitas operações de escritas desnecessárias, que atualizamos o valor de ab de true para true, ou seja, não alteramos o valor. Como resolver isso? TTAS.
+	Para evitar muitas consultas a memória que são lentas e entopem o barramento, cada CPU possui uma memória cache pequena. Ao fazer uma leitura de uma variável a CPU guarda no cache. E assim também fazem os outros CPUs que lerem essa variável. Contudo, se um CPU faz uma operação de escrita todos os outros caches são invalidádos para garantir a consistência do dado. Trazendo esse contexto para a nossa implementação do TAS, o Atomic Boolean será compartilhado entre as CPUs. E há muitas operações de escritas desnecessárias, que atualizamos o valor do booleano de true para true, ou seja, não alteramos o valor. Como resolver isso? TTAS.
 
